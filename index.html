@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftDiv">
+            <h3>HOME</h3>
+            <!-- <div class="backP"> -->
+                <p class="displayNum1" id="teamOne" value=0>0</p>
+            <!-- </div> -->
+            <p><button onclick="addOne1()">+1</button><button class="spaceAround" onclick="addTwo1()">+2</button><button onclick="addThree1()">+3</button></p>
+        </div>
+        <div class="rightDiv">
+            <h3>GUEST</h3>
+            <!-- <div class="backP"> -->
+                <p class="displayNum2" id="teamTwo">0</p>
+            <!-- </div> -->
+            <p><button onclick="addOne2()">+1</button><button class="spaceAround" onclick="addTwo2()">+2</button><button onclick="addThree2()">+3</button></p>
+        </div>
+        <button class="NewGame" onclick="newGame()" type="button">New Game</button>
+
+    </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
